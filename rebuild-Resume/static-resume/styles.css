@@ -1,0 +1,227 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    margin: 30px 50px;
+    margin-right: 5%;
+
+    padding: 5px;
+
+
+
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+
+
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-column {
+    flex: 1;
+    max-width: 30%;
+    min-height: 90%;
+    padding-right: 15px;
+}
+
+.profile-card {
+    background-color: rgb(254, 254, 254);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.profile-image-container {
+    position: relative;
+}
+
+.profile-image {
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.profile-name-container {
+    bottom: 0;
+    left: 0;
+    padding: 0.5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(202, 202, 202, 0.5);
+}
+
+.profile-info p {
+    margin: 5px 0;
+    padding: 1px;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+h3 {
+    color: teal;
+}
+
+
+.skill {
+
+    padding: 10px;
+}
+
+ul li {
+    background-color: rgba(202, 202, 202, 0.5);
+    color: black;
+    margin: 5px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: initial;
+}
+
+
+.right-column {
+    flex: 2;
+    max-width: 70%;
+
+    max-height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.course,
+.education {
+    margin-bottom: 1px;
+}
+
+.date {
+    font-size: 14px;
+    color: grey;
+}
+
+.current {
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.btn {
+
+    background-color: teal;
+
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600px;
+
+    cursor: pointer;
+    border-radius: 6px;
+
+
+
+    &:hover {
+        background-color: rgb(1, 99, 99);
+        color: white;
+
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+
+}
+
+.btnDiv {
+    margin-left: 350px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .left-column,
+    .right-column {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .left-column,
+    .right-column {
+        padding: 5px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .profile-card,
+    .card {
+        padding: 10px;
+    }
+
+
+    .btn {
+        padding: 3px;
+    }
+
+    .line-d {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .progress {
+        font-size: 12px;
+    }
+
+
+    .btn {
+        padding: 3px;
+    }
+
+    .line-d {
+        display: none;
+
+    }
+}
