@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+
+<!-- 
+    <link rel="stylesheet" href="style.css"> -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Page Container -->
+
+    <div id="resume">
+        <div class="container">
+
+
+            <div class="row">
+
+                <!-- Left Column -->
+                <div class="left-column">
+                    <div class="profile-card">
+                        <div class="profile-image-container">
+
+                           <span>  <img id="resumePic" src="IMG_20230824_075008-removebg-preview.png" class="profile-image" height="227px" alt="Avatar"></span>
+
+                        </div>
+                        <div class="profile-name-container">
+                            <h2 id="displayName">Muhammad Farooque</h2>
+                        </div>
+
+
+                        <div class="profile-info">
+                            <p><i class="fa fa-briefcase"> <span id="displayDesig"> Web Developer </span></i></p>
+
+                            <p><i class="fa fa-home"> <span id="displayAddress">Sindh, Pakistan</span> </i> </p>
+
+                            <p><i class="fa fa-envelope "> <span id="displayEmail">farooquemalik50871@gmail.com</span>
+                                </i></p>
+
+                            <p><i class="fa fa-phone"> <span id="displayPhone"> 03133850871</span> </i></p>
+                            <hr>
+
+
+
+                            <!-- Skill Section -->
+                            <section>
+                                <div class="skill-section">
+                                    <h3>Skills</h3>
+
+                                    <span class="skill">
+                                        <ul>
+                                            <li><span id="dSkill1"> HTML </span></li>
+
+                                            <li><span id="dSkill2"> CSS </span></li>
+
+                                            <li><span id="dSkill3"> NEXT.js </span></li>
+                                        </ul>
+                                    </span>
+
+
+
+                                </div>
+
+
+                            </section>
+                            
+
+                            <!-- Language Section -->
+                            <section>
+                                <div class="lang">
+                                    <h3>Language</h3>
+
+                                    <ul>
+                                        <li><span id="dSlang1"> English </span></li>
+                                        <li><span id="dSlang2"> Urdu </span></li>
+                                        <li><span id="dSlang3"> Sindhi / other </span></li>
+                                    </ul>
+
+
+
+                                </div>
+
+
+                            </section>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="line-d" style="border-left: 2px solid black; height: 65em ; margin: 15px;"></div>
+
+
+                <!-- Right Column -->
+                <div class="right-column">
+
+
+                    <div id="refCors" class="card">
+                        <h2 style="text-align: center; color: teal;">Courses</h2>
+                        <div class="course">
+                            <h4><span id="crsName"></span></h4>
+                            <p class="date"><span id="crsDate"></span></p>
+                            <p><span id="crsOver"></span></p>
+                        </div>
+                        <hr>
+
+                        <h2 style="text-align: center;"></h2>
+                        <div class="course">
+                            <h4><span id="crs2Name"></span></h4>
+                            <p class="date"><span id="crs2Date"></span></p>
+                            <p><span id="crs2Over"></span></p>
+                        </div>
+                        <hr>
+                        <h2 style="text-align: center;"></h2>
+                        <div class="course">
+                            <h4><span id="crs3Name"></span></h4>
+                            <p class="date"><span id="crs3Date"></span></p>
+                            <p><span id="crs3Over"></span></p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card">
+                        <h2 style="text-align: center; color: teal;">Education</h2>
+                        <div class="course">
+                            <h4><span id="eduName"></span></h4>
+                            <p class="date"><span id="eduDate"></span></p>
+                            <p><span id="eduForm"></span></p>
+                        </div>
+                        <hr>
+
+                        <h2 style="text-align: center;"></h2>
+                        <div class="course">
+                            <h4><span id="edu2Name"></span></h4>
+                            <p class="date"><span id="edu2Date"></span></p>
+                            <p><span id="eduForm2"></span></p>
+                        </div>
+                        <hr>
+                        <h2 style="text-align: center;"></h2>
+                        <div class="course">
+                            <h4><span id="edu3Name"></span></h4>
+                            <p class="date"><span id="edu3Date"></span></p>
+                            <p><span id="eduForm3"></span></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- btn section -->
+
+        <div class="btnDiv">
+            <button id="btnId" class="btn">hide | show</button>
+
+            <button id="btnPrint" class="btn">print</button>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+<script src="btn.js"></script>
+
+
+
+</html>

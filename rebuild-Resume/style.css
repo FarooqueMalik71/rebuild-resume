@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(123, 184, 215);
+    box-shadow: 0 4px 8px rgba(136, 226, 243, 0.1);
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.h22 {
+    text-align: center;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+
+    &:hover {
+        background-color: lightgray;
+
+    }
+
+    &:focus {
+        border: 2px solid #3f28c1;
+    }
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+ul li textarea {
+    width: 100%;
+
+}
+
+li {
+    padding: 5px;
+}
+
+textarea {
+    padding: 0.1px;
+
+}
+
+
+
+.button {
+
+
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit {
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.submit:hover {
+    background-color: lightgray;
+
+}
+
+.resume {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+
+
+
+.btndiv {
+    text-align: center;
+}

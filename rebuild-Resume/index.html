@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h22">Enter your details to generate a resume:</h2>
+        <form id="resumeForm">
+
+
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Muhammad Farooque">
+            </div>
+            <div class="input-group">
+                <label for="desig">Designation:</label>
+                <input type="text" id="desig" placeholder="Web-Developer">
+            </div>
+            <div class="input-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Sindh Mirpurkhas">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="+921234567899">
+            </div>
+            <div class="input-group">
+                <label for="pic">Profile picture</label>
+                <input type="file" id="pic">
+            </div>
+
+
+            <h2>Skills</h2>
+            <hr style="margin-bottom: 20px;">
+
+            <div class="input-group1">
+                <label for="skills"></label>
+
+                <ul>
+
+                    <li><textarea id="skills1" placeholder="HTML 99%"></textarea></li>
+                    <li><textarea id="skills2" placeholder="CSS 99%"></textarea></li>
+                    <li><textarea id="skills3" placeholder="Next.js 99%"></textarea></li>
+                </ul>
+
+
+            </div>
+
+
+            <h2>Language</h2>
+            <hr style="margin-bottom: 20px;">
+
+            <div class="input-group1">
+                <label for="lan"></label>
+
+                <ul>
+
+                    <li><textarea id="lang1" placeholder="English 99% "></textarea></li>
+                    <li><textarea id="lang2" placeholder="Urdu 99% "></textarea></li>
+                    <li><textarea id="lang3" placeholder="German 99% "></textarea></li>
+                </ul>
+
+
+            </div>
+
+
+
+
+
+
+
+            <h2>Courses</h2>
+            <hr style="margin-bottom: 20px;">
+
+            <div class="input-group">
+                <label for="courses">Course:1</label>
+                <input type="text" id="crs1Data1" placeholder="(e.g Web-Mobile Developer):">
+                <label for="courses">DATE:</label>
+                <input type="text" id="crs1Data2" placeholder="(e.g 2015 - 2016):">
+                <label for="courses">overview your Course</label>
+                <input type="text" id="crs1Data3">
+                <br>
+                <br>
+                <label for="courses">Course:2</label>
+                <input type="text" id="crs2Data1" placeholder="(e.g Graphic designer)">
+                <label for="courses">DATE:</label>
+                <input type="text" id="crs2Data2" placeholder="(e.g 2015 - 2016):">
+                <label for="courses">overview your Course</label>
+                <input type="text" id="crs2Data3">
+                <br>
+                <br>
+                <label for="courses">Course:3</label>
+                <input type="text" id="crs3Data1" placeholder="(e.g UI/UX designer)">
+                <label for="courses">DATE:</label>
+                <input type="text" id="crs3Data2" placeholder="(e.g 2015 - 2016):">
+                <label for="courses">overview your Course</label>
+                <input type="text" id="crs3Data3">
+
+
+            </div>
+            <h2>Education</h2>
+            <hr style="margin-bottom: 20px;">
+
+            <div class="input-group">
+                <div class="mrgn"><label for="courses"> (e.g Bachelor):</label></div>
+                <input type="text" id="edu1Data1" placeholder="(e.g Bachelor in Science):">
+                <label for="courses">DATE:</label>
+                <input type="text" id="edu1Data2" placeholder="(2015 - 2016):">
+                <label for="courses">University</label>
+                <input type="text" id="edu1Data3" placeholder="(e.g University of ..):">
+                <br>
+                <br>
+
+                <label for="courses"> (Intermediate):</label>
+                <input type="text" id="edu2Data1" placeholder="Intermediate">
+                <label for="courses">DATE:</label>
+                <input type="text" id="edu2Data2" placeholder="(2015 - 2016):">
+                <label for="courses">College name</label>
+                <input type="text" id="edu2Data3" placeholder="SAL College">
+                <br>
+                <br>
+
+                <label for="courses">(Matric):</label>
+                <input type="text" id="edu3Data1" placeholder="Matric">
+                <label for="courses">DATE:</label>
+                <input type="text" id="edu3Data2" placeholder="(2015 - 2016):">
+                <label for="courses">School Name</label>
+                <input type="text" id="edu3Data3" placeholder="High School">
+
+
+            </div>
+
+            <br>
+            <br>
+            <div class="btndiv  button "> <input id="submitBtn" class="submit" type="submit"></div>
+        </form>
+    </div>
+
+
+
+</body>
+<script src="rbresume.js"></script>
+
+
+
+</html>
